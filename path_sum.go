@@ -1,5 +1,6 @@
 package main
 
+/*
 func pathSum(root Node, sum int) bool {
 	if root == nil {
 		return false
@@ -23,3 +24,4 @@ func dfs(node Node, diff int) {
 	}
 	return false
 }
+*/

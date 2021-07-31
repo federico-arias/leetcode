@@ -1,6 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
-	//fmt.Println("vim-go")
-	possibleBipartition()
+	fmt.Println("vim-go")
 }
