@@ -35,7 +35,7 @@ func sumNumbersDFS(root *TreeNode, partial []int, ns *[][]int) {
 		copy(n, partial)
 		*ns = append(*ns, n)
 	}
-	fmt.Printf("node %v, ret %d\n", root.Val, s)
+	//fmt.Printf("node %v, ret %d\n", root.Val, s)
 	sumNumbersDFS(root.Left, partial, ns)
 	sumNumbersDFS(root.Right, partial, ns)
 }
